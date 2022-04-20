@@ -1,0 +1,33 @@
+html{
+    font-size: 10px;
+}
+
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    -webkit-box-sizing: border-box;     /* Sizing method for all browser */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+a, a:hover {
+    transition: all .4s ease-in-out;        /* Anchor <a> tag hover transition for all kind of browser */
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
